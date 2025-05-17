@@ -12,11 +12,11 @@ struct FavoriteButton: View {
     
     var body: some View {
         Button {
-            isSet.toggle()
+                    isSet.toggle()
         } label: {
-            Label("Toggle Favorite", systemImage: isSet ? "startfill" : "star")
+            Label("Toggle Favorite", systemImage: isSet ? "star.fill" : "star")
                 .labelStyle(.iconOnly)
-                .foregroundColor(isSet ? .yellow : .gray)
+                .foregroundStyle(isSet ? .yellow : .gray)
         }
     }
 }

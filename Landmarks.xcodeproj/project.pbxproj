@@ -32,8 +32,8 @@
 		E1E15E282DD852E600F6D167 = {
 			isa = PBXGroup;
 			children = (
-				E1E15E332DD852E600F6D167 /* Landmarks */,
 				E1E15E322DD852E600F6D167 /* Products */,
+				E1E15E332DD852E600F6D167 /* Landmarks */,
 			);
 			sourceTree = "<group>";
 		};
